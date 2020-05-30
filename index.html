@@ -7,16 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
-    crossorigin="anonymous">
-    <style> 
-        .px-nav {
-            padding-left: 15%;
-            padding-right:15%;
-        }
-    </style>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="statics/css/style.css">
 </head>
+
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-xl navbar-light bg-light d-flex">
@@ -27,21 +22,21 @@
             </div>
 
             <div class="p-2 col-md-5">
-                    <ul class="nav justify-content-between">
-                        <li class="nav-item">
-                            <a class="nav-link" href="www.google.com">Home</a>
+                    <ul class="nav justify-content-between list-unstyled">
+                        <li class="nav-item-css">
+                            <a class="nav-link nav-item-css" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Job</a>
+                        <li class="nav-item-css">
+                            <a class="nav-link nav-item-css" href="#">Job</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Fruit</a>
+                        <li class="nav-item-css">
+                            <a class="nav-link nav-item-css" href="#">Fruit</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Room</a>
+                        <li class="nav-item-css">
+                            <a class="nav-link nav-item-css" href="#">Room</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
+                        <li class="nav-item-css">
+                            <a class="nav-link nav-item-css" href="#">FAQ</a>
                         </li>
                     </ul>
             </div>
@@ -58,17 +53,22 @@
         <div class="row px-auto">
             <div class="col-md-8">
                 <h1>Welcome, Backpacker!!!</h1>
-                <p class="pt-3">lcsd cvl dsvol vsdlv ds lc vdsl cds lcsdlc sldcds cldscl sd lcdslc  dfvfd svs 
-                ffsdv gfbgf bgfbgf bgfbfgb gf bfdb fd bf gbg fbfd gbg fg  g bfgbv dfvdsk fjvkd jv nkjdf nv dn 
-                vk jd fnvkj dfnvkd jn vdk sjnvnv 7 vdnvk djsn fvk fnjdks nvkd sn vkdsnv kdjs nvsvdk jv ndjkfn
-                vdkj svjk dsv vkdjsfn vkjdsn vkdj snfvk ld snvlk dsnvk ldj snvk djnv k djnv fdkjnvd kj nv vjk
-                ds nv kj dnfvn ds kvn ds kjf vdskf vnds kfv dsk j vd ksj vd sk jnv dk sjn vdk jn vdkj vnds j k 
-                vn dsj kf nvvd ksnvd skln vds kn dkfvk djf vnd s.7
+                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. 
                 </p>
-                <div class="embed-responsive embed-responsive-16by9 col-md-9">
-                    <iframe class="embed-responsive-item" 
-                        src="statics/welcomeClip.mp4" 
-                        allowfullscreen></iframe>
+                <div class="embed-responsive embed-responsive-16by9 col-md-9 pt-3">
+                    <video id="WelcomVideo" loop>
+                        <source src="statics/welcomeClip.mp4" type="video/mp4">
+                    </video>
+                    <button class="btn btn-outline-light btn-lg asl-center" 
+                            id="playPauseButton"
+                            type="button" 
+                            onclick="playPause()"
+                            style="border: none; background: none; cursor: pointer; margin: 0; padding: 0;">
+                        <img src="https://img.icons8.com/nolan/64/play.png"/>
+                    </button>
                 </div>
             </div>
             <div class="media col-md-4">
@@ -77,73 +77,88 @@
         </div>
     </div>
 
-    <div id="fruit" class="container pt-5">
+
+    <div id="fruit" class="container pt-5 pb-4">
         <h2>Organic fruit and vegetables</h2>
         <div class="row pt-3">
             <div class="col-md-9">
-                <p>cds csd vfdvd fvf ds bd gbdgb gf gbf fdbfb gfvd ff vfd fvdf vdv fd vds
-                cdc sc sdc ds cs dc s casc csd vds vf dfvdfv dv df vdf v dsfv dv dsv ds.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
             <div class="col-md-3">
-                <a class="float-right" href="#">see more</a>
+                <a class="bottom-right link-new-page" href="#">see more</a>
             </div>
         </div>
-        <div class="row pt-4 d-flex justify-content-between">
+        <div class="row pt-5 d-flex justify-content-between">
             <div class="col-md-3">
                 <div style="background-image:url('statics/grape/grape1.jpg');
                                             background-size:cover;
-                                            height:40vh;
+                                            height:35vh;
                                             border-radius: 6px;">
-                    <h3>Grape</h3>
+                    <div class="bottom-left">
+                        <h3 style="color:#FFFFFF;">Grape</h3>
+                        <p style="color:#FFFFFF;font-size:90%">from $5.00</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/strawberry/strawberry1.jpg');
                                             background-size:cover;
-                                            height:40vh;
+                                            height:35vh;
                                             border-radius: 6px;">
-                    <h3>Strawberry</h3>
+                    <div class="bottom-left">
+                        <h3 style="color:#FFFFFF;">Strawberry</h3>
+                        <p style="color:#FFFFFF;font-size:90%">from $5.00</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/mango/mango1.jpg');
                                             background-size:cover;
-                                            height:40vh;
+                                            height:35vh;
                                             border-radius: 6px;">
-                    <h3>Mango</h3>
+                    <div class="bottom-left">
+                        <h3 style="color:#FFFFFF;">Mango</h3>
+                        <p style="color:#FFFFFF;font-size:90%">from $5.00</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/tomato/tomato1.jpg');
                                             background-size:cover;
-                                            height:40vh;
+                                            height:35vh;
                                             border-radius: 6px;">
-                    <h3>Tomato</h3>
+                    <div class="bottom-left">
+                        <h3 style="color:#FFFFFF;">Tomato</h3>
+                        <p style="color:#FFFFFF;font-size:90%">from $5.00</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="stay" class="container pt-5 pb-2">
+    <div id="stay" class="container pt-5 pb-4">
         <h2>Luxury Stay</h2>
         <div class="row pt-3">
             <div class="col-md-9">
-                <p>cds csd vfdvd fvf ds bd gbdgb gf gbf fdbfb gfvd ff vfd fvdf vdv fd vds
-                cdc sc sdc ds cs dc s casc csd vds vf dfvdfv dv df vdf v dsfv dv dsv ds.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
             <div class="col-md-3">
-                <a class="float-right" href="#">see more</a>
+                <a class="bottom-right link-new-page" href="#">see more</a>
             </div>
         </div>
-        <div class="row pt-4 d-flex justify-content-between">
+        <div class="row pt-5 d-flex justify-content-between">
             <div class="col-md-3">
                 <div style="background-image:url('statics/rooms/room1.jpg');
                                             background-size:cover;
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Basic Room</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Basic Room</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/rooms/room2.jpg');
@@ -151,8 +166,10 @@
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Modern Room</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Modern Room</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/rooms/room3.jpg');
@@ -160,8 +177,10 @@
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Traditional Room</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Traditional Room</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/rooms/room4.jpg');
@@ -169,32 +188,47 @@
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Luxury Room</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Luxury Room</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="image-ad" class="container pt-5 pb-4">
+        <div class="d-flex justify-content-between">
+            <div class="media col-md-6">
+                <img src="statics/background/background1.jpg" style="border-radius:6px;">
+            </div>
+            <div class="media col-md-6">
+                <img src="statics/background/background2.jpg" style="border-radius:6px;">
             </div>
         </div>
     </div>
 
     <div id="job" class="container pt-5 pb-5">
-        <h2>Luxury Stay</h2>
+        <h2>Well-paid part time jobs</h2>
         <div class="row pt-3">
             <div class="col-md-9">
-                <p>cds csd vfdvd fvf ds bd gbdgb gf gbf fdbfb gfvd ff vfd fvdf vdv fd vds
-                cdc sc sdc ds cs dc s casc csd vds vf dfvdfv dv df vdf v dsfv dv dsv ds.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
             <div class="col-md-3">
-                <a class="float-right" href="#">see more</a>
+                <a class="bottom-right link-new-page" href="#">see more</a>
             </div>
         </div>
-        <div class="row pt-4 pb-5 d-flex justify-content-between">
+        <div class="row pt-5 pb-5 d-flex justify-content-between">
             <div class="col-md-3">
                 <div style="background-image:url('statics/strawberry/strawberry1.jpg');
                                             background-size:cover;
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Strawberry Collector</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Strawberry collector</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/grape/grape1.jpg');
@@ -202,8 +236,10 @@
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Grape Collector</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Grape Collector</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/tomato/tomato1.jpg');
@@ -211,8 +247,10 @@
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Tomato Collector</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Tomato Collector</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
             </div>
             <div class="col-md-3">
                 <div style="background-image:url('statics/mango/mango1.jpg');
@@ -220,77 +258,86 @@
                                             height:20vh;
                                             border-radius: 6px;">
                 </div>
-                <h3>Mango Collector</h3>
-                <p>from $10.00/night</p>
+                <div class="pt-3">
+                    <h4 class="">Mango Collector</h4>
+                    <p style="font-size:100%">from $10.00/night</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container pt-5">
         <footer>
             <div class="row">
                 <div class="col-md-3 mx-auto">
-                    <h4>Targo Backpackers</h4>
+                    <h5>Targo Backpackers</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#">Home</a>
+                            <a class="footer-link" href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">Jobs</a>
+                            <a class="footer-link" href="#">Jobs</a>
                         </li>
                         <li>
-                            <a href="#">Fruit</a>
+                            <a class="footer-link" href="#">Fruit</a>
                         </li>
                         <li>
-                            <a href="#">Rooms</a>
+                            <a class="footer-link" href="#">Rooms</a>
                         </li>
                         <li>
-                            <a href="#">FAQ</a>
+                            <a class="footer-link" href="#">FAQ</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-3 mx-auto">
-                    <h4>About</h4>
+                    <h5>About</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="">Why Targo Backpackers?</a>
+                            <a class="footer-link" href="">Why Targo Backpackers?</a>
                         </li>
                         <li>
-                            <a href="">Working Place Overview</a>
+                            <a class="footer-link" href="">Working Place Overview</a>
                         </li>
                         <li>
-                            <a href="">Payment</a>
+                            <a class="footer-link" href="">Payment</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-3 mx-auto">
-                    <h4>Agreements</h4>
+                    <h5>Agreements</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="">Team & Policies</a>
+                            <a class="footer-link" href="">Team & Policies</a>
                         </li>
                         <li>
-                            <a href="">Privacy</a>
+                            <a class="footer-link" href="">Privacy</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-3 mx-auto">
-                    <h4>Contact Us</h4>
-                    <p>Tel: +64 491 570 156<br>
+                    <h5>Contact Us</h5>
+                    <p style="font-size:100%;">Tel: +64 491 570 156<br>
                     Email: admin@gmail.com<br>
                     105 Targo street Bundaberg Qld.</p>
-                    <div class="row">
-                        <a href="">facebook</a>
-                        <a href="">twitter</a>
-                        <a href="">ins</a>
+                    <div class="row px-3">
+                        <a class="pr-3" href="" style>
+                            <img src="https://img.icons8.com/color/48/000000/facebook-circled.png" style="width:2vw;"/>
+                        </a>
+                        <a class="pr-3" href="">
+                            <img src="https://img.icons8.com/color/48/000000/twitter-circled.png" style="width:2vw;"/>
+                        </a>
+                        <a href="">
+                            <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" style="width:2vw;"/>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-between">
-                <p>@2019 Group 3 HCMUS, All rights reversed.</p>
-                <a href="">go to admin</a>
+            <div class="row d-flex justify-content-between pt-4">
+                <p style="font-size:100%;">@2019 Group 3 HCMUS, All rights reversed.</p>
+                <a class="link-new-page" style="font-size:100%;" href="">go to admin</a>
             </div>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html> 

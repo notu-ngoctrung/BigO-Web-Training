@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Open Sans semibold', sans-serif;
+    color: #2C3E50;
+    font-size: 45px;
+}
+h2 {
+    font-family: 'Open Sans semibold', sans-serif;
+    color: #2C3E50;
+    font-size: 35px;
+}
+h3 {
+    font-family: 'Open Sans semibold', sans-serif;
+    color: #2C3E50;
+    font-size: 27px;
+}
+h4 {
+    font-family: 'Open Sans semibold', sans-serif;
+    color: #2C3E50;
+    font-size: 25px;
+}
+h5 {
+    font-family: 'Open Sans semibold', sans-serif;
+    color: #2C3E50;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #2C3E50; 
+    font-size:140%;
+}
+
+.footer-link {
+    font-family: 'Open Sans', sans-serif;
+    color:#2C3E50;
+}
+
+.link-new-page {
+    font-family: 'Open Sans', sans-serif;
+    color: #F65E39;
+    font-size: 140%;
+}
+
+.nav-item-css {
+    font-family: 'Open Sans', sans-serif;
+    color:#2C3E50;
+    font-size: 120%;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 15px;
+    bottom: 2vh;
+}
+.bottom-left {
+    position: absolute;
+    bottom:2vh;
+    left:2vw;
+}
+.asl-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
