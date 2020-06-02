@@ -1,48 +1,27 @@
-h1 {
-    font-family: 'Open Sans semibold', sans-serif;
-    color: #2C3E50;
-    font-size: 45px;
-}
-h2 {
-    font-family: 'Open Sans semibold', sans-serif;
-    color: #2C3E50;
-    font-size: 35px;
-}
-h3 {
-    font-family: 'Open Sans semibold', sans-serif;
-    color: #2C3E50;
-    font-size: 27px;
-}
-h4 {
-    font-family: 'Open Sans semibold', sans-serif;
-    color: #2C3E50;
-    font-size: 25px;
-}
-h5 {
-    font-family: 'Open Sans semibold', sans-serif;
-    color: #2C3E50;
-}
-p {
+body {
     font-family: 'Open Sans', sans-serif;
     color: #2C3E50; 
-    font-size:140%;
+}
+img {
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
 }
 
-.footer-link {
-    font-family: 'Open Sans', sans-serif;
-    color:#2C3E50;
+.shadow-div {
+    position: relative;
+    bottom: 0;
+    box-shadow: 0px -1px 50px -35px;
 }
 
-.link-new-page {
+.orange-link {
     font-family: 'Open Sans', sans-serif;
     color: #F65E39;
-    font-size: 140%;
 }
 
-.nav-item-css {
+.nav-link {
     font-family: 'Open Sans', sans-serif;
     color:#2C3E50;
-    font-size: 120%;
 }
 
 .bottom-right {
@@ -50,14 +29,12 @@ p {
     right: 15px;
     bottom: 2vh;
 }
-.bottom-left {
+
+.descrip-inside {
     position: absolute;
-    bottom:2vh;
-    left:2vw;
+    bottom: 0;
+    color: #FFFFFF;
 }
-.asl-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.blur-behind {
+    backdrop-filter: blur(1px);
 }
