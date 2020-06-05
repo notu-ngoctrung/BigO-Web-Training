@@ -1,0 +1,263 @@
+body {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2C3E50;
+    text-align: justify;
+}
+
+header {
+    box-shadow: 0px 0px 10px #A5B1C2;
+    height: 80px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+footer {
+    border-top: #BEBEBE thin solid;
+    background-color: white;
+    margin-top: 150px;
+    padding: 50px 0 0 10px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 17px 0;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.navbar-nav { align-items: center; }
+
+.nav-item { margin-left: 25px; }
+
+.nav-link { color: #2C3E50!important; }
+
+.active { font-weight: 700; }
+
+.form-control { font-size: 21px; }
+
+.mt-6 { margin-top: 4rem!important; }
+
+.badge-container {
+    position:relative;
+    display:inline-block;
+}
+
+.badge {
+    position: absolute;
+    display: block!important;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #2ECC71;
+    right: 0;
+}
+
+.row-box {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-description { padding-left: 0px; }
+
+.play-button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.play-button:active { border: none; }
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+.link {
+    color: #F65E39;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.fruit-box {
+    position: relative;
+    height: 346px;
+    width: 254px;
+    border-radius: 8px;
+    background-size: cover!important;
+    padding: 245px 0 0 25px;
+    margin: 50px 23px 0 0;
+}
+
+.fruit-box .title {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: white;
+}
+
+.fruit-box .description {
+    font-size: 16px;
+    color: white;
+}
+
+.room-box {
+    width: 254px;
+    margin: 60px 23px 0 0;
+}
+
+.room-box img {
+    border-radius: 8px;
+}
+
+.room-box .title {
+    display: block;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.room-box .description {
+    font-size: 16px;
+}
+
+.ads {
+    border-radius: 8px;
+    width: 539px;
+    height: 303px;
+    margin-right: auto;
+}
+
+.footer-col { padding-left: 0; }
+
+.footer-col .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.footer-col li {
+    line-height: 1.8;
+}
+
+.footer-col a {
+    color: #2C3E50;
+}
+
+.footer-icon {
+    margin: 0 20px 0 0;
+}
+
+.price { 
+    color: #EB3B5A; 
+    font-weight: 600;
+}
+
+.price-sm { font-size: 24px; }
+
+.price-me { font-size: 32px; }
+
+.price-lg { font-size: 40px; }
+
+.button-large {
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    border-radius: 8px;
+}
+
+.button-medium {
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.button-small {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-button {
+    border: none;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 43%;
+}
+
+.slider-button-left { 
+    left: 0;
+    background: url(./images/slider-button-left.svg);
+}
+
+.slider-button-right { 
+    right: 0; 
+    background: url(./images/slider-button-right.svg);
+}
+
+.slider-img-preview {
+    width: 142px;
+    height: 142px;
+    z-index: -1;
+    position: relative;
+}
+
+.slider-img-preview-inactive {
+    background: #00000070;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.cart-title {
+    font-size: 32px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.cart-item {
+    align-items: center;
+    padding: 20px 0 20px 0;
+    border-top: rgba(165, 177, 194, 0.5) 1px solid;
+}
+
+.cart-item-last { border-bottom: rgba(165, 177, 194, 0.5) 1px solid;}
+
+.cart-text { 
+    font-size: 24px!important;
+    font-weight: 700; 
+}
+
+.room-title, .job-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+}
