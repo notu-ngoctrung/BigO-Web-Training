@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Job </title>
+    <title> Fruit Detail </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -26,10 +26,10 @@
                             <a class="nav-link" href="./Home.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./Job.html">Job</a>
+                            <a class="nav-link" href="./Job.html">Job</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Fruit.html">Fruit</a>
+                            <a class="nav-link active" href="./Fruit.html">Fruit</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./Room.html">Room</a>
@@ -48,43 +48,94 @@
         </div>
     </div>
 
-    <div class = "container pt-3 pb-7">
-        <h3>Well-paid part time jobs</h3>
-        <p class = "pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <div style = "font-size: 32px; font-weight: bold;" class="container">
+        <div class="pt-3 pb-2">
+            <img src="../images/playicon.png">
+            <span> Your Cart </span>
+            <hr />
+        </div>
+        <div>
+            <div class="row pt-2">
+            <img style = "border-radius: 10px; width: 160px; height: 154px" src="../images/Strawberry/Strawberryimg.jpg">
+                <span class="col-4 ml-2"> Strawberry </span>
+                <span class="col-3">
+                    <button type="button" class="btn btn-outline-secondary pl-3 pr-3">-</button>
+                    <span class="pl-3 pr-3">1 Kg</span>
+                    <button type="button" class="btn btn-outline-secondary pl-3 pr-3">+</button>
+                </span>
+                <span style="color:#EB3B5A;" class="col-2 price price-me text-right">
+                    $5.00
+                </span>
+                <img src="../images/bin.png" style="height: 32px; width: 32px; margin-left: auto;">
+            </div>
+            <hr />
+            <div class="row pt-2">
+                <img style = "border-radius: 10px; width: 160px; height: 154px" src="../images/Mango/Mangoimg.jpg">
+                <span class="col-4 ml-2">Mango</span>
+                <span class="col-3">
+                    <button type="button" class="btn btn-outline-secondary pl-3 pr-3">-</button>
+                    <span class="pl-3 pr-3">2 Kg</span>
+                    <button type="button" class="btn btn-outline-secondary pl-3 pr-3">+</button>
+                </span>
+                <span style="color:#EB3B5A;" class="col-2 price price-me text-right">
+                    $10.00
+                </span>
+                <img src="../images/bin.png" style="height: 32px; width: 32px; margin-left: auto;">
+            </div>
+            <hr />
 
-        <div class = "row pt-2 pb-2">
-            <div class = "col-md-3">
-                <a href = "JobDetail.html">
-                    <img class = "imgshadow" style = "width: 254px; height: 172px;" src = "../images/StrawberryCollector/StrawberryCollectorimg.jpg" alt = "StrawberryCollector">
-                </a>
-                <div class = "pt-3">
-                    <h1>Strawberry collector</h1>
-                    <h5>from $10.00/night</h5>
-                </div>
+            <div class="row pt-2">
+                <img style = "border-radius: 10px; width: 160px; height: 154px" src="../images/Orange/Orangeimg.jpg">
+                <span class="col-4 ml-2">Orange</span>
+                <span class="col-3">
+                    <button type="button" class="btn btn-outline-secondary pl-3 pr-3">-</button>
+                    <span class="pl-3 pr-3">3 Kg</span>
+                    <button type="button" class="btn btn-outline-secondary pl-3 pr-3">+</button>
+                </span>
+                <span style="color:#EB3B5A;" class="col-2 price price-me text-right">
+                    $15.00
+                </span>
+                <img src="../images/bin.png" style="height: 32px; width: 32px; margin-left: auto;">
             </div>
-            <div class = "col-md-3">
-                <img class = "imgshadow" style = "width: 254px; height: 172px;" src = "../images/GrapeCollector/GrapeCollectorimg.jpg" alt = "GrapeCollector"> 
+            <hr />
 
-                <div class = "pt-3">
-                    <h1>Grape collector</h1>
-                    <h5>from $10.00/night</h5>
+        </div>
+    </div>
+
+    <div class = "container">
+        <div class="pt-3 pb-3">
+            <img src="../images/playicon.png">
+            <span style = "font-size: 32; font-weight: bold;">Your Information</span>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-5">
+                    <span>Full name<br /></span>
+                    <input type="text" class="form-control" placeholder="Kerbal">
+                </div>
+                <div class="col-3">
+                    <span>Phone number<br /></span>
+                    <input type="text" class="form-control" placeholder="0123456789">
+                </div>
+                <div class="col-4">
+                    <span>Email<br /></span>
+                    <input type="text" class="form-control" placeholder="traquockhanh997@gmail.com">
                 </div>
             </div>
-            <div class = "col-md-3">
-                <img class = "imgshadow" style = "width: 254px; height: 172px;" src = "../images/TomatoCollector/TomatoCollectorimg.jpg" alt = "TomatoCollector"> 
-                
-                <div class = "pt-3">
-                    <h1>Tomato collector</h1>
-                    <h5>from $10.00/night</h5>
+            <div class = "row pt-3 pb-3">
+                <div class="col">
+                    <span>Shipping Address<br></span>
+                    <input type="text" class="form-control" placeholder="227 Nguyễn Văn Cừ, Phường x, Quận 5, tp. HCM">
                 </div>
             </div>
-            <div class = "col-md-3">
-                <img class = "imgshadow" style = "width: 254px; height: 172px;" src = "../images/AppleCollector/AppleCollectorimg.jpg" alt = "AppleCollector">
-                
-                <div class = "pt-3">
-                    <h1>Apple collector</h1>
-                    <h5>from $10.00/night</h5>
+            <div class="col-4" style = "font-weight: bold; margin-left: auto;">
+                <div class="row-box" style="align-items: center;">
+                    <span>Total</span>
+                    <span style="font-size: 32px; color: #EB3B5A; margin-left: auto;"> $30.00 </span>
                 </div>
+                <button style = "font-weight: bold; color: white;" class="btn btn-warning button-large mt-3 p-3 w-100">
+                    Purchase
+                </button>
             </div>
         </div>
     </div>
@@ -140,12 +191,12 @@
                             <a class="footer-link pt-3" href="#">Privacy</a>
                         </li>
                     </ul>
-                </div> 
-
+                </div>   
+                
                 <div class = "p-2 col-md-1"></div>
                 <div class = "p-2 col-md-2">
                     <img src="../images/Admin.jpg" alt="Admin" height="55">                    
-                </div>                 
+                </div>
             </div>
 
             <div class = "row">
