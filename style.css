@@ -37,6 +37,8 @@ img {
     border-radius: 8px;
 }
 
+a { color: #2C3E50; }
+
 .navbar-nav { align-items: center; }
 
 .nav-item { margin-left: 25px; }
