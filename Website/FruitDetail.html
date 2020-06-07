@@ -49,15 +49,15 @@
     </div>
 
     <div class = "container pt-2 pb-2">
-        <div class = "row">
+        <div class = "row head-link">
             <div class = "col-md-1">
-                <a style = "color: black; font-size:18px;" href = "./Fruit.html"> Fruit </a>
+                <a href = "./Fruit.html"> Fruit </a>
             </div>
             <div class = "col-md-1">
                 <p> > </p>
             </div>
             <div class = "col-md-3">
-                <p style = "color: black; font-size:18px;"> Strawberry </p>
+                <p> Strawberry </p>
             </div>
         </div>
     </div>
@@ -65,24 +65,25 @@
     <div class = "container">
         <div class = "row pt-2 pb-4">
             <div class = "col-md-6">
-                <img style = "border-radius: 10px; width: 100%; height: 426.34px;" src = "../images/Strawberry/Strawberryimg.jpg">
+                <img style = "width: 100%; height: 426.34px;" src = "../images/Strawberry/Strawberryimg.jpg">
             </div>
             <div class = "col-md-6">
                 <h3 class = "pb-3">Strawberry</h3>
                 <p class = "pb-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
-                <h3 style = "color: #EB3B5A; font-size: 40;"> <b> $5.00 </b> </h3>
+                <h3 class = "cost"> <b> $5.00 </b> </h3>
                 <p class="pl-0">
                     <span>Quantity &nbsp; &nbsp;</span>
                     <button type="button" class="btn btn-outline-secondary pl-3 pr-3">-</button>
-                    <span class="pl-3 pr-3">1</span>
+                    <span class="pl-3 pr-3"> 1 </span>
                     <button type="button" class="btn btn-outline-secondary pl-3 pr-3">+</button>
-                    <span class="pl-3">kg</span>
+                    <span class="pl-3"> kg </span>
+                    
                 </p>
-                <div class="row-box position-absolute" style="bottom: 0;">
+                <div class="row-box position-absolute">
                     <button type="button" class="btn btn-danger button-large p-3 pl-5 pr-5">BUY NOW</button>
                     <button type="button" class="btn btn-warning button-large p-3 pl-4 pr-4 ml-4">
                         ADD TO CART &nbsp;
-                        <img style="width:25px; height:25px;" src="../images/shopping-cart.svg">
+                        <img class = "logo" src="../images/shopping-cart.svg">
                     </button>
                 </div>
             </div>
@@ -99,7 +100,7 @@
                 <img style="width: 100%; height: 150px;" src="../images/Strawberry/Strawberryimg3.jpg">
             </div>
             <div class = "col-md-6">
-                <div class="position-absolute" style="bottom: 0;">
+                <div class="position-absolute">
                     <p> We accept payment with: </p>
                     <span>
                         <img class = "pr-3" src="../images/paypal.png">
@@ -123,53 +124,39 @@
                 <a style = "color: #F65E39;" class="bottom-right link-new-page" href="./Fruit.html">See more</a>
             </div>
         </div>
-        <div class = "row d-flex pt-5 justify-content-between">
+        <div style = "color: #FFFFFF;" class = "row d-flex pt-5 justify-content-between">
             <div class = "col-md-3">
-                <div style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Grape/Grapeimg.jpg'); 
-                                                            background-size:cover;
-                                                            border-radius: 10px;
-                                                            width: 254px;
-                                                            height: 346px;">
-                    <div class="bottom-left">
+                <div class = "bgimage" style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Grape/Grapeimg.jpg'); ">
+                    <div class ="bottom-left">
                         <h4>Grape</h4>
-                        <h5 style = "color: #FFFFFF;">from $5.00</h5>
+                        <h5>from $5.00</h5>
                     </div>
                 </div>
             </div>
             <div class = "col-md-3">
-                <div style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Strawberry/Strawberryimg.jpg'); 
-                                                            background-size:cover;
-                                                            border-radius: 10px;
-                                                            width: 254px;
-                                                            height: 346px;">
-                    <div class="bottom-left">
-                        <h4>Strawberry</h4>
-                        <h5 style = "color: #FFFFFF;">from $5.00</h5>
+                <a href = "./FruitDetail.html">
+                    <div class = "bgimage" style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Strawberry/Strawberryimg.jpg'); ">
+                        <div style = "color: #FFFFFF;" class="bottom-left">
+                            <h4>Strawberry</h4>
+                            <h5>from $5.00</h5>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class = "col-md-3">
-                <div style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Mango/Mangoimg.jpg'); 
-                                                            background-size:cover;
-                                                            border-radius: 10px;
-                                                            width: 254px;
-                                                            height: 346px;">
+                <div class = "bgimage" style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Mango/Mangoimg.jpg');" >
                     <div class="bottom-left">
                         <h4>Mango</h4>
-                        <h5 style = "color: #FFFFFF;">from $5.00</h5>
+                        <h5>from $5.00</h5>
                     </div>
                 </div>
             </div>
 
             <div class = "col-md-3">
-                <div style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Tomato/Tomatoimg.jpg'); 
-                                                            background-size:cover;
-                                                            border-radius: 10px;
-                                                            width: 254px;
-                                                            height: 346px;">
+                <div class = "bgimage" style = "background-image: linear-gradient(to bottom, rgba(111,111,111,0.35) 45%, rgba(0,0,0,0.88) 100%), url('../images/Tomato/Tomatoimg.jpg'); ">
                     <div class="bottom-left">
                         <h4>Tomato</h4>
-                        <h5 style = "color: #FFFFFF;">from $5.00</h5>
+                        <h5>from $5.00</h5>
                     </div>
                 </div>
             </div>
@@ -181,50 +168,50 @@
     <div class = "container pt-2">
         <footer>
             <div class = "row pb-5">
-                <div style = "font-size: 16px; color: #2C3E50" class = "p-2 col-md-3"> 
+                <div class = "p-2 col-md-3"> 
                     <h5 class = "pb-3"> <b> Targo Backpackers </b> </h5>
                     <ul class="justify-content-between list-unstyled">
                         <li>
-                            <a class="footer-link pt-3" href="./Home.html"> Home </a>
+                            <a class="footer-link pt-3" href="./Home.html"> <h5> Home </h5> </a>
                         </li>
                         <li>
-                            <a class="footer-link pt-3" href="./Job.html">Job</a>
+                            <a class="footer-link pt-3" href="./Job.html"> <h5> Job </h5> </a>
                         </li>
                         <li>
-                            <a class="footer-link pt-3" href="./Fruit.html">Fruit</a>
+                            <a class="footer-link pt-3" href="./Fruit.html"> <h5> Fruit </h5> </a>
                         </li>
                         <li>
-                            <a class="footer-link pt-3" href="./Room.html">Room</a>
+                            <a class="footer-link pt-3" href="./Room.html"> <h5> Room </h5> </a>
                         </li>
                         <li>
-                            <a class="footer-link pt-3" href="./FQA.html">FQA</a>
+                            <a class="footer-link pt-3" href="./FQA.html"> <h5> FQA </h5> </a>
                         </li>
                     </ul>
                 </div>
 
-                <div style = "font-size: 16px; color: #2C3E50" class = "p-2 col-md-3"> 
+                <div class = "p-2 col-md-3"> 
                     <h5 class = "pb-3"> <b> About </b> </h5>
                     <ul class="justify-content-between list-unstyled">
                         <li>
-                            <a class="footer-link pt-3" href="#">Why Targo Backpackers?</a>
+                            <a class="footer-link pt-3" href="#"> <h5>Why Targo Backpackers? </h5> </a>
                         </li>
                         <li>
-                            <a class="footer-link pt-3" href="#">Working Place Overview</a>
+                            <a class="footer-link pt-3" href="#"> <h5> Working Place Overview </h5> </a>
                         </li>
                         <li>
-                            <a class="footer-link pt-3" href="#">Payment</a>
+                            <a class="footer-link pt-3" href="#"> <h5> Payment </h5> </a>
                         </li>
                     </ul>
                 </div>
 
-                <div style = "font-size: 16px; color: #2C3E50" class = "p-2 col-md-3"> 
+                <div class = "p-2 col-md-3"> 
                     <h5 class = "pb-3"><b> Agreements </b> </h5>
                     <ul class="justify-content-between list-unstyled">
                         <li>
-                            <a class="footer-link pt-3" href="#">  Terms & Policies </a>
+                            <a class="footer-link pt-3" href="#"> <h5> Terms & Policies </h5> </a>
                         </li>
                         <li>
-                            <a class="footer-link pt-3" href="#">Privacy</a>
+                            <a class="footer-link pt-3" href="#"> <h5> Privacy </h5> </a>
                         </li>
                     </ul>
                 </div>   
@@ -237,7 +224,7 @@
 
             <div class = "row">
                 <div class = "col-md-9">
-                    <p style="font-size:16px;">@2019 Group 3 HCMUS, All rights reversed.</p>
+                    <h5>@2019 Group 3 HCMUS, All rights reversed.</h5>
                 </div>
                 <div class = "col-md-1"> <img src="../images/LogoContact/Facebook.jpg" alt="Facebook" width="32" height="32"> </div>
                 <div class = "col-md-1"> <img src="../images/LogoContact/Twitter.jpg" alt="Twitter" width="32" height="32"> </div>
